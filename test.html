@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <title>Тестирование</title>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+     <link rel="stylesheet" href="css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/styles.css">
+     <link rel="icon" href="images/icon.png" type="image/x-icon">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand d-flex" href="index.html">
+                <img src="images/icon_white.png" alt="Logo">
+                <span class = "brand-text">Thermodynamics</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="material.html" class="nav-link">Основной материал</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="laws.html" class="nav-link">Законы</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div>
+        <br>
+        <br>
+    </div>
+    <div class="container">
+      <h1 class="text-center"><strong>Тестирование</strong></h1>
+    </div>
+    <div>
+        <br>
+        <br>
+    </div>
+    
+    <div class="container">
+        <div id="quiz">
+            <div class="question mb-3">
+                <p>1. Что изучает термодинамика?</p>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="q1a" name="q1" value="0">
+                    <label class="form-check-label" for="q1a">Движение тел</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="q1b" name="q1" value="0">
+                    <label class="form-check-label" for="q1b">Электромагнитные явления</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="q1c" name="q1" value="1">
+                    <label class="form-check-label" for="q1c">Энергетические процессы</label>
+                </div>
+            </div>
+
+            <div class="question mb-3">
+                <p>2. Какая система обменивается только энергией, но не веществом?</p>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="q2a" name="q2" value="0">
+                    <label class="form-check-label" for="q2a">Открытая</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="q2b" name="q2" value="1">
+                    <label class="form-check-label" for="q2b">Закрытая</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="q2c" name="q2" value="0">
+                    <label class="form-check-label" for="q2c">Изолированная</label>
+                </div>
+            </div>
+
+            <div class="question mb-3">
+                <p>3. Какая формула описывает первый закон термодинамики?</p>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="q3a" name="q3" value="1">
+                    <label class="form-check-label" for="q3a">ΔU = Q + A</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="q3b" name="q3" value="0">
+                    <label class="form-check-label" for="q3b">PV = nRT</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="q3c" name="q3" value="0">
+                    <label class="form-check-label" for="q3c">Q = c*m*ΔT</label>
+                </div>
+            </div>
+
+            <div class="question mb-3">
+                <p>4. Какая физическая величина постоянна при изотермическом процессе?</p>
+                <input type="text" class="form-control" name="q4" placeholder="Введите ответ" id="q4">
+            </div>
+            <div class="question mb-3">
+                <p>5. Что происходит с энтропией изолированной системы?</p>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="q5a" name="q5" value="1">
+                    <label class="form-check-label" for="q5a">Она увеличивается или остаётся неизменной</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="q5b" name="q5" value="0">
+                    <label class="form-check-label" for="q5b">Она уменьшается</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="q5c" name="q5" value="0">
+                    <label class="form-check-label" for="q5c">Она изменяется в зависимости от давления</label>
+                </div>
+            </div>
+
+            <div class="question mb-3">
+                <p>6. Чему равна универсальная газовая постоянная? Ответ округлите до десятых.</p>
+                <input type="text" class="form-control" name="q6" placeholder="Введите ответ" id="q6">
+            </div>
+
+            <div class="question mb-3">
+                <p>7. Какая формула выражает уравнение состояния идеального газа?</p>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="q7a" name="q7" value="0">
+                    <label class="form-check-label" for="q7a">A = P*ΔV</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="q7b" name="q7" value="1">
+                    <label class="form-check-label" for="q7b">PV = nRT</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="q7c" name="q7" value="0">
+                    <label class="form-check-label" for="q7c">ΔU = Q + A</label>
+                </div>
+            </div>
+
+            <div class="question mb-3">
+                <p>8. Что такое изобарный процесс?</p>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="q8a" name="q8" value="0">
+                    <label class="form-check-label" for="q8a">Процесс, при котором постоянен объём</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="q8b" name="q8" value="0">
+                    <label class="form-check-label" for="q8b">Процесс, при котором постоянна температура</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="q8c" name="q8" value="1">
+                    <label class="form-check-label" for="q8c">Процесс, при котором постоянно давление</label>
+                </div>
+            </div>
+
+            <div class="question mb-3">
+                <p>9. Чему равна работа газа в изобарном процессе?</p>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="q9a" name="q9" value="1">
+                    <label class="form-check-label" for="q9a">P * ΔV</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="q9b" name="q9" value="0">
+                    <label class="form-check-label" for="q9b">Q + A</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="q9c" name="q9" value="0">
+                    <label class="form-check-label" for="q9c">n * R * T</label>
+                </div>
+            </div>
+
+            <div class="question mb-3">
+                <p>10. Какая система не обменивается с окружение ни энергией, ни веществом?</p>
+                <input type="text" class="form-control" name="q10" placeholder="Введите ответ" id="q10">
+            </div>
+        </div>
+        <button class="btn btn-primary w-100 rounded-pill" onclick="checkAnswers(); scrollToBottom()">Проверить ответы</button>
+        
+        <div id="result" class="result mt-3 mb-5 mt-5"></div>
+
+        <button class="btn btn-primary w-100 rounded-pill mb-5" onclick="location.reload();">Пройти тест заново</button>
+    </div>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mx-lg-auto text-center col-md-6 col-12">
+                    <p class="copyright-text">Copyright &copy; 2024 Thermodynamics
+                    <br>
+                </div>
+            </div>
+        </div>
+    </footer>
+            
+    <!-- скрипты -->
+   <script src="js/script.js"></script>
+   <script src="js/bootstrap.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>            
+</body>
+</html>
